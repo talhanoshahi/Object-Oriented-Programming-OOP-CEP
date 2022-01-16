@@ -404,7 +404,7 @@ std::ifstream & BOT::operator>> (std::ifstream & inputFile, BOT::Graph & inputGr
 			continue;
 		}
 				
-		else if ((reading[0] == '/' && reading[1] == '/') || reading.length() == 0) continue;
+		else if ((reading[0] == '/' && reading[1] == '/') || reading.length() == 0 || reading[0] == '#') continue;
 		else
 		{
 			if (NodesReading)
