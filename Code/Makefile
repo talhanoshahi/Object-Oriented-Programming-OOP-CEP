@@ -5,7 +5,7 @@ CFLAGS = -Wall -g
 # Targets needed to bring the executable up to date
 
 main: Main.o Graph.o Edge.o Node.o Functions.o
-	$(CC) $(CFLAGS) -o main Main.o Graph.o Edge.o Node.o Functions.o -lstdc++fs
+	$(CC) $(CFLAGS) -o GraphWriter Main.o Graph.o Edge.o Node.o Functions.o -lstdc++fs
 
 # The main.o target can be written more simply
 
