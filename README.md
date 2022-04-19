@@ -32,9 +32,9 @@ The input in the file should be in the following format:
 NodeNumber1 NodeName1
 NodeNumber2 NodeName2
 NodeNumber3 NodeName3
+
 #following are edges
 // They would be stored as edges in program
-
 ;Edges
 NodeNumber1 NodeNumber2 Weight1
 NodeNumber1 NodeNumber3 Weight2
